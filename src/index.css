@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MontserratExtraBold';
+  src: url('./assets/font/Montserrat-ExtraBold.woff2') format('woff2'),
+    url('./assets/font/Montserrat-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('./assets/font/Montserrat-Bold.woff2') format('woff2'),
+    url('./assets/font/Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url('./assets/font/Montserrat-SemiBold.woff2') format('woff2'),
+    url('./assets/font/Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/font/Montserrat-Regular.woff2') format('woff2'),
+    url('./assets/font/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  progress {
+    color: currentColor;
+    background: lightgrey;
+    height: 10px;
+    border-radius: 100px;
+  }
+
+  progress::-moz-progress-bar {
+    background: currentColor;
+    border-radius: 100px;
+  }
+
+  progress::-webkit-progress-bar {
+    background: lightgrey;
+    border-radius: 100px;
+  }
+
+  progress::-webkit-progress-value {
+    background: currentColor;
+    border-radius: 100px;
+  }
+}
+
+@layer components {
+  .primay-btn {
+    @apply text-center p-2 bg-theme-primary rounded-md text-theme-white focus:outline-none focus:ring focus:ring-offset-2 focus:ring-theme-primary active:bg-opacity-85 select-none;
+  }
+
+  .primay-danger {
+    @apply text-center p-2 bg-theme-error rounded-md text-theme-white focus:outline-none focus:ring focus:ring-offset-2 focus:ring-theme-error active:bg-opacity-85 select-none;
+  }
+}
+
+html,
+body, aside {
+  scrollbar-width: thin;
+}
