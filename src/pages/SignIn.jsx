@@ -28,7 +28,7 @@ const SignIn = ({ setLoggedIn }) => {
   const [showPwd, setShowPwd] = useState(false)
   const toast = useRef(null);
 
-  const toastNotify = ({ serverity = "success", summary = 'Success', detail = 'Message Content', life = 3000 }) => {
+  const toastNotify = ({ serverity = "success", summary = 'Success', detail = 'Message Content', life = 300000 }) => {
     toast.current.show(
       {
         severity: serverity,
@@ -204,7 +204,7 @@ const SignIn = ({ setLoggedIn }) => {
           </div>
         </div>
       </div>
-      <Toast ref={toast} />
+      <Toast ref={toast} className='max-w-[320px]' />
     </div>
   )
 }

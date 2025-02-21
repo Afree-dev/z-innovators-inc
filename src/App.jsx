@@ -154,7 +154,7 @@ function App() {
           )}
         </div>
      </div>
-     <Toast ref={toast} />
+     <Toast ref={toast} className='max-w-[320px]' />
     </>
   )
 }
