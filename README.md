@@ -1,8 +1,32 @@
-# React + Vite
+# Z-Innovators Inc - Business Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+Z-Innovators Inc is a **Business Management Dashboard SaaS** designed to streamline business operations, track real-time analytics, and improve decision-making. Built with **React + Vite** and styled using **Tailwind CSS**, this platform offers a seamless and responsive user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
+- 📊 **Real-time Business Analytics**
+- 👥 **Employee & Team Management**
+- 📅 **Project Tracking**
+- 📈 **Sales & Revenue Insights**
+- 🔒 **Secure Authentication & Role-Based Access**
+- 🎨 **Modern UI with Tailwind CSS**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS
+- **Deployment:** [Vercel](https://vercel.com), [Render](https://render.com)
+
+## 🚀 Installation & Setup
+```bash
+# Clone the repository
+git clone https://github.com/your-username/z-innovators-inc.git
+cd z-innovators-inc
+
+# Install dependencies
+npm install  # or yarn install
+
+# Start the development server
+npm run dev  # or yarn dev
+```
+
+## 📩 Contact
+For any inquiries, reach out to **[Afeedh Hanifa]** at **afreedhhanifaa@gmail.com** or visit [www.linkedin.com/in/afreedh-dev].
