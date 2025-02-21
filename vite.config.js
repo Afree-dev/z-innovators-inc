@@ -8,9 +8,6 @@ export default defineConfig({
     postcss: "./postcss.config.js",
   },
   build: {
-    outDir: 'dist',
-    sourcemap: false, // Disable sourcemaps for smaller builds
-    minify: 'terser', // Use Terser for better minification
-    chunkSizeWarningLimit: 500, // Adjust chunk size limit
+    outDir: 'dist'
   },
 })

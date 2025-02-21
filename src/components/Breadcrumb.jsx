@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation, useMatch } from 'react-router-dom'
-import { LuHome } from "react-icons/lu";
+import { GoHome } from "react-icons/go";
 
 
 const Breadcrumb = () => {
@@ -26,7 +26,7 @@ const Breadcrumb = () => {
     <div>
         <ul className='breadcrumnb flex gap-2 text-base font-fontSemiBold'>
             <li className='flex gap-2'>
-                <Link to='/' className='inline-block md:hidden'><LuHome className='size-5' /></Link> 
+                <Link to='/' className='inline-block md:hidden'><GoHome className='size-5' /></Link> 
                 <Link to='/' className='hidden md:inline-block'>Dashboard</Link>
                 <span>/</span>
             </li>

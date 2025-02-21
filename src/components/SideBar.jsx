@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react'
 import Logo from '../assets/images/logo.svg'
 import { Link, NavLink, useMatch } from 'react-router-dom';
 import { IoMdClose } from "react-icons/io";
-import { LuHome, LuUsers } from "react-icons/lu";
+import { LuUsers } from "react-icons/lu";
 import { PiNotepad } from "react-icons/pi";
 import { BsBoxes } from "react-icons/bs";
-import { FaUserCheck } from "react-icons/fa6";
 import { Skeleton } from 'primereact/skeleton';
+import { GoHome } from "react-icons/go";
 
 const Sidebar = ({currentUser, sidebarToggler}) => {
 
@@ -37,7 +37,7 @@ const Sidebar = ({currentUser, sidebarToggler}) => {
           <ul className='space-y-2'>
             <li>
               <NavLink to="/" className={({ isActive }) => `p-2 rounded-md font-fontSemiBold flex items-center gap-2 ${isActive ? 'bg-theme-primary text-theme-white' : 'text-theme-black hover:bg-black/5'}`}>
-                <LuHome className="size-5 text-inherit" />
+                <GoHome className="size-5 text-inherit" />
                 <span>Home</span>
               </NavLink>
             </li>
